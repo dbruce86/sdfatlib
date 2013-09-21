@@ -136,7 +136,7 @@ uint8_t const SD_CARD_TYPE_SDHC = 3;
 #ifndef SOFTWARE_SPI
 // hardware pin defs
 /** The default chip select pin for the SD card is SS. */
-uint8_t const  SD_CHIP_SELECT_PIN = SS;
+uint8_t const  SD_CHIP_SELECT_PIN = 49;
 #else  // SOFTWARE_SPI
 /** SPI chip select pin */
 uint8_t const SD_CHIP_SELECT_PIN = SOFT_SPI_CS_PIN;

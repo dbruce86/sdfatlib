@@ -49,7 +49,7 @@
  *  Force use of Arduino Standard SPI library if USE_ARDUINO_SPI_LIBRARY
  * is nonzero.
  */
-#define USE_ARDUINO_SPI_LIBRARY 0
+#define USE_ARDUINO_SPI_LIBRARY 1
 //------------------------------------------------------------------------------
 /**
  * Use native SPI on Teensy 3.0 if USE_NATIVE_MK20DX128-SPI is nonzero.
